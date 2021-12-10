@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Planet 5: Jupiter</title>
+    <style>
+        #div1 {
+            height: 2000px;
+            width: 2550px;
+        }
+
+        #img1 {
+            margin-left: 550px;
+            ;
+        }
+
+        #div3 {
+            height: 960px;
+            width: 1400px;
+            border: rgb(196, 117, 14) 10px solid;
+            animation-name: jupimg;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 6s;
+            margin-left: 500px;
+        }
+
+        @keyframes jupimg {
+
+            0% {
+                background-image: url("jupiter1.jpg")
+            }
+
+            50% {
+                background-image: url("jupiter2.jpg")
+            }
+
+            100% {
+                background-image: url("jupiter3.jpg")
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1" class="container-fluid " style="background-color:burlywood; color:orangered;">
+        <h1 class="display-2" style=" color:rgb(255, 159, 34);">
+            <marquee>Planet 5: Jupiter</marquee>
+        </h1>
+        <div id="div2">
+
+            <p class="display-4 text-center"> Jupiter is the <b>fifth planet</b> in the Solar System.
+                It is also the <b>largest planet.</b> All the planets before were <b>rocky planets</b> , but Jupiter is
+                the
+                first <b>gas planet.</b>
+                Jupiter's mass is <b>2.5x more</b> than all the other planets' mass combined! It
+                is named after the <b>Roman god Jupiter</b> , the god of <b> lightning, and the skies.</b>
+                It is composed of <b>75% hydrogen and 25% helium. </b> There is also a huge,
+                turbulent storm on
+                Jupiter called the <b>"Great Red Spot".</b> It is a reddish color and was
+                first discovered in <b> 17th Century by telescope.</b>
+
+
+
+
+
+            </p>
+        </div>
+        <div id="div3">
+            <h3 style="color:beige;">Jupiter | Images</h3>
+        </div>
+        <br><br>
+        <a href="https://en.wikipedia.org/wiki/Jupiter" type="button"
+            class="btn btn-outline-warning btn-lg btn-block">Credits</a>
+        <a href="https://solarsystem.nasa.gov/planets/jupiter/overview/" type="button"
+            class="btn btn-lg btn-outline-warning btn-block">Learn More!</a>
+        <br><br>
+        <div class="jumbotron">
+            <span class="badge badge-pill badge-warning ">
+                <p class="display-2"> <b> Did you know?</b></p>
+            </span>
+            <br><br>
+            <div class="alert alert-danger alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert">x</button>
+                <strong>
+                    <p class="display-2">As Jupiter is the biggest planet, more than 1300 Earths can fit inside it!</p>
+                </strong>
+            </div>
+
+            <ul class="pagination pagination-lg justify-content-center">
+                <li class="page-item "><a class="page-link" href="mars.html">Previous</a></li>
+                <li class="page-item "><a class="page-link" href="Pagination.html">Home</a></li>
+                <li class="page-item "><a class="page-link" href="mercury.html">Mercury</a></li>
+                <li class="page-item "><a class="page-link" href="venus.html">Venus</a></li>
+                <li class="page-item"><a class="page-link" href="earth.html">Earth</a></li>
+                <li class="page-item "><a class="page-link" href="mars.html">Mars</a></li>
+                <li class="page-item active"><a class="page-link" href="jupiter.html">Jupiter</a></li>
+                <li class="page-item"><a class="page-link" href="saturn.html">Saturn</a></li>
+                <li class="page-item"><a class="page-link" href="uranus.html">Uranus</a></li>
+                <li class="page-item"><a class="page-link" href="neptune.html">Neptune</a></li>
+                <li class="page-item"><a class="page-link" href="saturn.html">Next</a></li>
+        </div>
+</body>
+
+</html>

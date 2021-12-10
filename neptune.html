@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Planet 8: Neptune</title>
+    <style>
+        #div1 {
+            height: 2100px;
+            width: 2550px;
+        }
+
+        #img1 {
+            margin-left: 550px;
+            ;
+        }
+
+        #div3 {
+            height: 860px;
+            width: 1200px;
+            border: rgb(196, 117, 14) 10px solid;
+            animation-name: nepimg;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 6s;
+            margin-left: 650px;
+        }
+
+        @keyframes nepimg {
+
+            0% {
+                background-image: url("neptune1.jpg")
+            }
+
+            50% {
+                background-image: url("neptune2.jpg")
+            }
+
+            100% {
+                background-image: url("neptune3.jpg")
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1" class="container-fluid " style="background-color:dodgerblue; color:midnightblue;">
+        <h1 class="display-2" style="color: navy;">
+            <marquee>Planet 8: Neptune</marquee>
+        </h1>
+        <div id="div2">
+
+            <p class="display-4 text-center"> Neptune is the eighth and
+                farthest planet in the Solar System. It is the 4th largest planet as well. It is 17x more
+                massive
+                than Earth! The planet revolves the Sun every 164.8 years at an average
+                distance of 4.5 billion km! It
+                is named after the Roman god of the sea! Its planet symbol is ♆ , which looks like the weapon of the god
+                it is named after.
+
+
+
+            </p>
+        </div>
+        <div id="div3">
+            <h3 style="color:powderblue;">Neptune | Images</h3>
+        </div>
+        <br><br>
+        <a href="https://en.wikipedia.org/wiki/Mars" type="button"
+            class="btn btn-outline-primary btn-lg btn-block">Credits</a>
+        <a href="https://solarsystem.nasa.gov/planets/mars/overview/" type="button"
+            class="btn btn-lg btn-outline-primary btn-block">Learn More!</a>
+        <br><br>
+        <div class="jumbotron">
+            <p class="display-2"> <b> Did you know?</b></p>
+            <p class="display-3"></p>
+        </div>
+
+        <ul class="pagination pagination-lg justify-content-center">
+            <li class="page-item "><a class="page-link" href="uranus.html">Previous</a></li>
+            <li class="page-item "><a class="page-link" href="Pagination.html">Home</a></li>
+            <li class="page-item "><a class="page-link" href="mercury.html">Mercury</a></li>
+            <li class="page-item "><a class="page-link" href="venus.html">Venus</a></li>
+            <li class="page-item"><a class="page-link" href="earth.html">Earth</a></li>
+            <li class="page-item "><a class="page-link" href="mars.html">Mars</a></li>
+            <li class="page-item"><a class="page-link" href="jupiter.html">Jupiter</a></li>
+            <li class="page-item"><a class="page-link" href="saturn.html">Saturn</a></li>
+            <li class="page-item"><a class="page-link" href="uranus.html">Uranus</a></li>
+            <li class="page-item active"><a class="page-link" href="neptune.html">Neptune</a></li>
+            <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+    </div>
+</body>
+
+</html>

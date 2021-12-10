@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Planet 2: Venus</title>
+    <style>
+        #div1 {
+            height: 2900px;
+            width: 2550px;
+        }
+
+        #img1 {
+            margin-left: 550px;
+            ;
+        }
+
+        #div3 {
+            height: 800px;
+            width: 800px;
+            border: rgb(196, 117, 14) 10px solid;
+            animation-name: venusimg;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 6s;
+            margin-left: 850px;
+        }
+
+        @keyframes venusimg {
+
+            0% {
+                background-image: url("venus.jpg")
+            }
+
+            50% {
+                background-image: url("venus2.jpg")
+            }
+
+            100% {
+                background-image: url("venus3.jpg")
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1" class="container-fluid " style="background-color: bisque; color: orange;">
+        <h1 class="display-2 " style="color: orangered;">
+            <marquee>Planet 2: Venus</marquee>
+        </h1>
+        <div id="div2">
+
+            <p class="display-4 text-center"> Venus is the <b>second planet </b> from the Sun. It is named after the
+                <b>Roman goddess of love.</b>
+                Since Venus is so
+                close to the Sun, it can <b>easily reflect light and cast shadows on the Earth.</b>
+                Thus, Venus can sometimes be visible to us <b>before sunrise or after sunset.</b>
+                Also, Venus (along with Uranus) is the only planet that rotates <b>counter-clockwise </b> on its axis.
+                Venus orbits the Sun in almost every <b> 225 earthdays.</b> And, its rotation period is <b>243
+                    earthdays.</b>
+                Venus is the only other planet (except Mercury) that doesn't have a natural satellite/ a moon.
+            </p>
+        </div>
+        <div id="div3">
+            <h3>Venus | Images</h3>
+        </div>
+        <br><br>
+        <a href="https://en.wikipedia.org/wiki/Venus_(planet)" type="button" class="btn  btn-lg btn-block"
+            style="background-color: orange;">Credits</a>
+        <a href="https://solarsystem.nasa.gov/planets/venus/overview/" type="button" class="btn btn-lg btn-block"
+            style="background-color: orange;">Learn More!</a>
+        <br><br>
+        <div class="jumbotron">
+            <p class="display-2"> <b> Did you know?</b></p>
+            <p class="display-3">One day on Venus is actually longer than one year!</p>
+        </div>
+
+        <ul class="pagination pagination-lg justify-content-center">
+            <li class="page-item "><a class="page-link" href="mercury.html">Previous</a></li>
+            <li class="page-item "><a class="page-link" href="Pagination.html">Home</a></li>
+            <li class="page-item "><a class="page-link" href="mercury.html">Mercury</a></li>
+            <li class="page-item active"><a class="page-link" href="venus.html">Venus</a></li>
+            <li class="page-item"><a class="page-link" href="earth.html">Earth</a></li>
+            <li class="page-item"><a class="page-link" href="mars.html">Mars</a></li>
+            <li class="page-item"><a class="page-link" href="jupiter.html">Jupiter</a></li>
+            <li class="page-item"><a class="page-link" href="saturn.html">Saturn</a></li>
+            <li class="page-item"><a class="page-link" href="uranus.html">Uranus</a></li>
+            <li class="page-item"><a class="page-link" href="neptune.html">Neptune</a></li>
+            <li class="page-item"><a class="page-link" href="earth.html">Next</a></li>
+    </div>
+</body>
+
+</html>

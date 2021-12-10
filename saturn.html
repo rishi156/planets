@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Planet 6: Saturn</title>
+    <style>
+        #div1 {
+            height: 2000px;
+            width: 2550px;
+        }
+
+        #img1 {
+            margin-left: 550px;
+            ;
+        }
+
+        #div3 {
+            height: 760px;
+            width: 1000px;
+            border: rgb(196, 117, 14) 10px solid;
+            animation-name: saturnimg;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 6s;
+            margin-left: 700px;
+        }
+
+        @keyframes saturnimg {
+
+            0% {
+                background-image: url("saturn1.jpg")
+            }
+
+            50% {
+                background-image: url("saturn2.jpg")
+            }
+
+            100% {
+                background-image: url("saturn3.jpg")
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1" class="container-fluid " style="background-color:coral; color:rgb(133, 98, 52);">
+        <h1 class="display-2" style=" color:rgb(255, 159, 34);">
+            <marquee>Planet 6: Saturn</marquee>
+        </h1>
+        <div id="div2">
+
+            <p class="display-4 text-center"> Saturn is the sixth planet in the solar system and
+                the second-largest (after Jupiter.)
+                It is also the second gas planet.
+                Its density is 1/8th of Earth (because it is made of gas), but it's so large that it is actually 95x
+                more massive!
+                Saturn is named after the
+                Roman god of wealth and agriculture. The planet is very famous because of its huge rings!
+
+
+
+
+            </p>
+        </div>
+        <div id="div3">
+            <h3 style="color:orange;">Saturn | Images</h3>
+        </div>
+        <br><br>
+        <a href="https://en.wikipedia.org/wiki/Saturn" type="button"
+            class="btn btn-outline-warning btn-lg btn-block">Credits</a>
+        <a href="https://solarsystem.nasa.gov/planets/saturn/overview/" type="button"
+            class="btn btn-lg btn-outline-warning btn-block">Learn More!</a>
+        <br><br>
+        <div class="jumbotron">
+            <p class="display-2"> <b> Did you know?</b></p>
+            <p class="display-3">Saturn's beautiful rings are actually made up of ice and dust particles!</p>
+        </div>
+
+        <ul class="pagination pagination-lg justify-content-center">
+            <li class="page-item "><a class="page-link" href="jupiter.html">Previous</a></li>
+            <li class="page-item "><a class="page-link" href="Pagination.html">Home</a></li>
+            <li class="page-item "><a class="page-link" href="mercury.html">Mercury</a></li>
+            <li class="page-item "><a class="page-link" href="venus.html">Venus</a></li>
+            <li class="page-item"><a class="page-link" href="earth.html">Earth</a></li>
+            <li class="page-item "><a class="page-link" href="mars.html">Mars</a></li>
+            <li class="page-item "><a class="page-link" href="jupiter.html">Jupiter</a></li>
+            <li class="page-item active"><a class="page-link" href="saturn.html">Saturn</a></li>
+            <li class="page-item"><a class="page-link" href="uranus.html">Uranus</a></li>
+            <li class="page-item"><a class="page-link" href="neptune.html">Neptune</a></li>
+            <li class="page-item"><a class="page-link" href="uranus.html">Next</a></li>
+    </div>
+</body>
+
+</html>

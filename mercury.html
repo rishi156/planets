@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Planet 1: Mercury</title>
+    <style>
+        body {
+            background-color: lavender;
+        }
+
+        #div1 {
+            height: 2500px;
+            width: 2550px;
+        }
+
+        #img1 {
+            margin-left: 750px;
+            ;
+        }
+
+        #div3 {
+            height: 1000px;
+            width: 1600px;
+            border: navy 10px solid;
+            animation-name: mercimg;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 6s;
+            margin-left: 450px;
+        }
+
+        @keyframes mercimg {
+            0% {
+                background-image: url("mercury.jpg");
+            }
+
+            50% {
+                background-image: url("mercury2.jpg");
+            }
+
+            100% {
+                background-image: url("mercury3.jpg");
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1" class="container-fluid bg-secondary text-light ">
+        <h1 class="display-2 text-dark">
+            <marquee>Planet 1: Mercury</marquee>
+        </h1>
+        <div id="div2">
+            <p class="display-4 text-center"> Mercury is the <b> first (and smallest) planet </b> in the Solar System,
+                and
+                it is the
+                closest to the sun. It is named after the Roman god <b> Mercurius, who is the connection between
+                    humans and gods.</b> Like Venus,
+                Mercury is so close to the Sun that, we can <b> see it after Sunset and before
+                    Sunrise. </b>When we see it, it will appear blurry and not as clear as Venus. Also, Mercury
+                is one of the only planets which <b> doesn't have a natural satellite (a moon.)</b> One of the probes
+                which orbited Mercury was made by <b>NASA</b> and it was called the <b>MESSENGER</b>.</p>
+        </div>
+        <div id="div3">
+            <h3>Mercury | Images</h3>
+        </div>
+        <br><br>
+        <a href="https://en.wikipedia.org/wiki/Mercury_(planet)" type="button"
+            class="btn btn-dark btn-lg btn-block">Credits</a>
+        <a href="https://solarsystem.nasa.gov/planets/mercury/overview/" type="button"
+            class="btn btn-dark btn-lg btn-block">Learn
+            More!</a>
+        <br><br>
+        <div class="jumbotron text-dark">
+            <p class="display-2"><b>Did you know?</b> </p>
+            <p class="display-3">Even though Mercury is the closest planet to the Sun, it is not actually the hottest
+                planet! That award goes to Venus!</p>
+        </div>
+
+        <ul class="pagination pagination-lg justify-content-center">
+            <li class="page-item "><a class="page-link" href="Pagination.html">Previous</a></li>
+            <li class="page-item "><a class="page-link" href="Pagination.html">Home</a></li>
+            <li class="page-item active"><a class="page-link" href="mercury.html">Mercury</a></li>
+            <li class="page-item"><a class="page-link" href="venus.html">Venus</a></li>
+            <li class="page-item"><a class="page-link" href="earth.html">Earth</a></li>
+            <li class="page-item"><a class="page-link" href="mars.html">Mars</a></li>
+            <li class="page-item"><a class="page-link" href="jupiter.html">Jupiter</a></li>
+            <li class="page-item"><a class="page-link" href="saturn.html">Saturn</a></li>
+            <li class="page-item"><a class="page-link" href="uranus.html">Uranus</a></li>
+            <li class="page-item"><a class="page-link" href="neptune.html">Neptune</a></li>
+            <li class="page-item"><a class="page-link" href="venus.html">Next</a></li>
+    </div>
+</body>
+
+</html>
